@@ -1,6 +1,6 @@
 import csv,json
 pack = []
-with open('ip.csv', newline='') as f:
+with open('case.csv', newline='') as f:
     reader = csv.reader(f)
     for row in reader:
             pack.append(row)
