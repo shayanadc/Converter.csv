@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: csvConvertor
+Version: 0.1
+Summary: convert csv file to json
+Home-page: https://github.com/shayanadc
+Author: shayanadc
+Author-email: shayanadc@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: Linux

@@ -1,6 +1,6 @@
 import csv, json
 
-fileAddress = 'ip.csv'
+fileAddress = 'test.csv'
 
 
 def getDataListFromCSV(fileAddress):
@@ -24,7 +24,7 @@ def convertCSVFiletoJson(fileAddress):
     pack = getDataListFromCSV(fileAddress)
     titles = pack[0]
     pack.remove(pack[0])
-    return bindListByTitle(titles, pack)
+    list = bindListByTitle(titles, pack)
+    return json.dumps(list, ensure_ascii=False)
 
-dx = convertCSVFiletoJson(fileAddress)
-print(json.dumps(dx, ensure_ascii=False))
+print(convertCSVFiletoJson(fileAddress))

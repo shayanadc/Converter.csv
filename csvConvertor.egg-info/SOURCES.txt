@@ -1,0 +1,8 @@
+README.rst
+setup.py
+csvConvertor.egg-info/PKG-INFO
+csvConvertor.egg-info/SOURCES.txt
+csvConvertor.egg-info/dependency_links.txt
+csvConvertor.egg-info/top_level.txt
+jsonConvertor/__init__.py
+jsonConvertor/readCSV.py
